@@ -118,7 +118,7 @@ function esEntero(numero) {
   if (Math.floor(numero)) {
     return true;
   }
-  else if (Math.floor(numero)){        
+  else if (Math.floor(numero)){        // numero % 1 === 0; con esta linea solucionabas si era un entero o no
     return false;
   }
   else if (numero === 0) {
